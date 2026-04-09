@@ -17,7 +17,7 @@ const points = [
     icon: TrendingUp,
     title: "Multi-Sensory Learning Takes Time",
     description:
-      "As a PGCE and QTS qualified specialist, I use evidence-based, multi-sensory approaches — concrete manipulatives, visual models, and structured reasoning. These methods rewire how a student relates to numbers, but that rewiring requires consistent, sustained practice over months.",
+      "As a PGCE and qualified specialist, I use evidence-based, multi-sensory approaches — concrete manipulatives, visual models, and structured reasoning. These methods rewire how a student relates to numbers, but that rewiring requires consistent, sustained practice over months.",
   },
 ];
 
