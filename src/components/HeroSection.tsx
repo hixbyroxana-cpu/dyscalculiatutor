@@ -10,9 +10,9 @@ const HeroSection = () => {
               Building Sustainable Mathematical Foundations
             </p>
             <h1 className="font-heading text-3xl sm:text-4xl lg:text-5xl font-bold text-foreground leading-tight">
-              Long-Term Specialist Support for{" "}
-              <span className="text-primary">Dyscalculia</span>{" "}
-              — Not Quick Fixes
+              Mastering Maths with Confidence: Specialist{" "}
+              <span className="text-primary">Dyscalculia Tutoring</span> by a
+              Qualified Teacher
             </h1>
             <p className="text-lg text-muted-foreground max-w-lg leading-relaxed">
               I specialise in working with students over the long term — from primary
@@ -39,13 +39,13 @@ const HeroSection = () => {
               <div className="w-64 h-64 sm:w-80 sm:h-80 rounded-full overflow-hidden border-4 border-card shadow-hover">
                 <img
                   src={profilePhoto}
-                  alt="Specialist dyscalculia tutor - QTS qualified mathematics teacher"
+                  alt="Specialist dyscalculia tutor - Qualified mathematics teacher"
                   className="w-full h-full object-cover"
                   loading="eager"
                 />
               </div>
               <div className="absolute -bottom-3 -right-3 bg-card rounded-xl px-4 py-2 shadow-card border border-border">
-                <span className="text-sm font-semibold text-primary">PGCE & QTS Certified</span>
+                <span className="text-sm font-semibold text-primary">PGCE & Certified Teacher</span>
               </div>
             </div>
           </div>

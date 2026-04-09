@@ -1,7 +1,7 @@
 import { Award, ShieldCheck, Clock } from "lucide-react";
 
 const credentials = [
-  { icon: Award, label: "PGCE & QTS Certified", sublabel: "Qualified Teacher Status" },
+  { icon: Award, label: "PGCE & Certified", sublabel: "Qualified Teacher Status" },
   { icon: ShieldCheck, label: "DBS Checked", sublabel: "Enhanced Disclosure" },
   { icon: Clock, label: "10+ Years Experience", sublabel: "Specialist Maths Teaching" },
 ];
