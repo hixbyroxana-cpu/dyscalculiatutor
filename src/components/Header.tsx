@@ -5,11 +5,11 @@ const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
   const links = [
-    { label: "Why Choose Me", href: "#why" },
-    { label: "Services", href: "#services" },
+    { label: "Why Long-Term", href: "#why" },
+    { label: "Programmes", href: "#services" },
+    { label: "Why Not Cramming", href: "#why-not-cramming" },
     { label: "What is Dyscalculia?", href: "#what-is-dyscalculia" },
-    { label: "Testimonials", href: "#testimonials" },
-    { label: "Contact", href: "#contact" },
+    { label: "Stories", href: "#testimonials" },
   ];
 
   return (
@@ -19,7 +19,6 @@ const Header = () => {
           dyscalculia<span className="text-accent">.help</span>
         </a>
 
-        {/* Desktop nav */}
         <ul className="hidden md:flex items-center gap-6">
           {links.map((l) => (
             <li key={l.href}>
@@ -33,12 +32,11 @@ const Header = () => {
               href="#contact"
               className="inline-flex items-center px-5 py-2.5 rounded-lg bg-primary text-primary-foreground text-sm font-semibold hover:opacity-90 transition-opacity"
             >
-              Book Free Consultation
+              Book a Strategy Call
             </a>
           </li>
         </ul>
 
-        {/* Mobile toggle */}
         <button
           className="md:hidden p-2 text-foreground"
           onClick={() => setMenuOpen(!menuOpen)}
@@ -49,17 +47,12 @@ const Header = () => {
         </button>
       </nav>
 
-      {/* Mobile nav */}
       {menuOpen && (
         <div className="md:hidden border-t border-border bg-card px-6 pb-6 animate-fade-in">
           <ul className="flex flex-col gap-4 pt-4">
             {links.map((l) => (
               <li key={l.href}>
-                <a
-                  href={l.href}
-                  className="text-base font-medium text-foreground"
-                  onClick={() => setMenuOpen(false)}
-                >
+                <a href={l.href} className="text-base font-medium text-foreground" onClick={() => setMenuOpen(false)}>
                   {l.label}
                 </a>
               </li>
@@ -70,7 +63,7 @@ const Header = () => {
                 onClick={() => setMenuOpen(false)}
                 className="inline-flex items-center justify-center w-full px-5 py-3 rounded-lg bg-primary text-primary-foreground font-semibold"
               >
-                Book Free Consultation
+                Book a Strategy Call
               </a>
             </li>
           </ul>

@@ -6,27 +6,31 @@ const HeroSection = () => {
       <div className="container">
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6 animate-fade-up">
+            <p className="text-sm font-semibold tracking-widest uppercase text-accent">
+              Building Sustainable Mathematical Foundations
+            </p>
             <h1 className="font-heading text-3xl sm:text-4xl lg:text-5xl font-bold text-foreground leading-tight">
-              Mastering Maths with Confidence:{" "}
-              <span className="text-primary">Specialist Dyscalculia Tutoring</span>{" "}
-              by a QTS Qualified Teacher
+              Long-Term Specialist Support for{" "}
+              <span className="text-primary">Dyscalculia</span>{" "}
+              — Not Quick Fixes
             </h1>
             <p className="text-lg text-muted-foreground max-w-lg leading-relaxed">
-              Personalised, patient, and evidence-based support to help your child
-              build genuine confidence with numbers — at their own pace.
+              I specialise in working with students over the long term — from primary
+              years through to GCSE — to ensure the gaps in their numerical understanding
+              are permanently filled, not papered over.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 pt-2">
               <a
                 href="#contact"
                 className="inline-flex items-center justify-center px-8 py-4 rounded-lg bg-accent text-accent-foreground font-semibold text-lg shadow-soft hover:shadow-hover transition-all duration-300 hover:-translate-y-0.5"
               >
-                Book a Free Consultation
+                Book a Strategy Call
               </a>
               <a
-                href="#what-is-dyscalculia"
+                href="#why-not-cramming"
                 className="inline-flex items-center justify-center px-8 py-4 rounded-lg border-2 border-primary text-primary font-semibold text-lg hover:bg-primary hover:text-primary-foreground transition-all duration-300"
               >
-                Learn About Dyscalculia
+                Why Long-Term Support Works
               </a>
             </div>
           </div>

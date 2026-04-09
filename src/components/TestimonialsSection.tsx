@@ -3,20 +3,20 @@ import { Star } from "lucide-react";
 const testimonials = [
   {
     quote:
-      "For the first time, my daughter actually says she enjoys maths. The patience and understanding she receives in every session has been life-changing.",
-    author: "Parent of Year 5 student",
+      "We started working together when my daughter was in Year 3. She's now in Year 6 and genuinely understands maths — not just tricks to get through a test. That long-term commitment changed everything.",
+    author: "Parent of Year 6 student",
     bg: "bg-peach-light",
   },
   {
     quote:
-      "We finally understand our son's struggles. The strategies we learned have transformed homework time from tears to teamwork.",
-    author: "Parent of Year 3 student",
+      "After years of short-term tutors who came and went, finding someone who understood this was a journey — not a quick fix — was exactly what our son needed.",
+    author: "Parent of Year 8 student",
     bg: "bg-sage-light",
   },
   {
     quote:
-      "Professional, kind, and incredibly knowledgeable. My confidence with numbers has grown more in 3 months than in years of school.",
-    author: "Adult learner",
+      "The family sessions helped us understand that progress looks different for a dyscalculic learner. We stopped panicking about tests and started celebrating real understanding.",
+    author: "Parent of Year 5 student",
     bg: "bg-lavender-light",
   },
 ];
@@ -27,10 +27,11 @@ const TestimonialsSection = () => {
       <div className="container">
         <div className="text-center max-w-2xl mx-auto mb-14">
           <h2 className="font-heading text-2xl sm:text-3xl font-bold text-foreground mb-4">
-            Success Stories
+            Stories of Long-Term Progress
           </h2>
           <p className="text-muted-foreground text-lg">
-            Hear from families who have experienced the difference specialist support can make.
+            Real change takes time. Here's what families say about choosing the
+            long-term path.
           </p>
         </div>
         <div className="grid md:grid-cols-3 gap-8">

@@ -3,23 +3,23 @@ import { Heart, Brain, Sparkles } from "lucide-react";
 const painPoints = [
   {
     icon: Heart,
-    title: "Maths Anxiety is Real",
+    title: "Beyond Memorisation",
     description:
-      "Many children with dyscalculia develop deep anxiety around numbers. I create a calm, judgement-free space where mistakes are welcome and learning feels safe.",
+      "Rote learning and trick-based methods fail dyscalculic learners. I focus on building genuine number sense — deep conceptual understanding that lasts a lifetime, not just until the next test.",
     bg: "bg-peach-light",
   },
   {
     icon: Brain,
-    title: "It's Not About Trying Harder",
+    title: "A Journey, Not a Quick Fix",
     description:
-      "Dyscalculia isn't laziness — it's a neurological difference. My sessions use multi-sensory, concrete methods designed specifically for how your child's brain works.",
+      "Dyscalculia is a neurological difference that requires sustained, specialist support. My programmes are designed around months and years of cumulative progress — because real understanding can't be rushed.",
     bg: "bg-sage-light",
   },
   {
     icon: Sparkles,
-    title: "Small Steps, Big Progress",
+    title: "Filling Gaps Permanently",
     description:
-      "From telling the time to understanding fractions, I break concepts down into manageable, confidence-building steps that stick.",
+      "Short-term cramming leaves fragile foundations. I work systematically to identify and permanently fill every gap in your child's mathematical understanding, building confidence from the ground up.",
     bg: "bg-lavender-light",
   },
 ];
@@ -30,11 +30,11 @@ const WhySection = () => {
       <div className="container">
         <div className="text-center max-w-2xl mx-auto mb-14">
           <h2 className="font-heading text-2xl sm:text-3xl font-bold text-foreground mb-4">
-            Why Specialist Support Matters
+            Why Deep Understanding Beats Exam Prep
           </h2>
           <p className="text-muted-foreground text-lg">
-            If your child struggles with basic arithmetic, loses track of steps, or feels
-            overwhelmed by numbers — you're not alone, and there is a way forward.
+            Most tutoring focuses on passing the next test. My approach is different —
+            I build the sustainable mathematical foundations your child needs for life.
           </p>
         </div>
         <div className="grid md:grid-cols-3 gap-8">
