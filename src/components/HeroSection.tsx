@@ -10,9 +10,9 @@ const HeroSection = () => {
               Building Sustainable Mathematical Foundations
             </p>
             <h1 className="font-heading text-3xl sm:text-4xl lg:text-5xl font-bold text-foreground leading-tight">
-              Long-Term Specialist Support for{" "}
-              <span className="text-primary">Dyscalculia</span>{" "}
-              — Not Quick Fixes
+              Mastering Maths with Confidence: Specialist{" "}
+              <span className="text-primary">Dyscalculia Tutoring</span> by a
+              Qualified Teacher
             </h1>
             <p className="text-lg text-muted-foreground max-w-lg leading-relaxed">
               I specialise in working with students over the long term — from primary
