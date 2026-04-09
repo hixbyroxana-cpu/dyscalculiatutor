@@ -15,11 +15,11 @@ const ContactSection = () => {
         <div className="max-w-2xl mx-auto">
           <div className="text-center mb-10">
             <h2 className="font-heading text-2xl sm:text-3xl font-bold text-foreground mb-4">
-              Get in Touch
+              Start the Conversation
             </h2>
             <p className="text-muted-foreground text-lg">
-              Ready to take the first step? Send me a message and I'll be in touch
-              within 24 hours to arrange your free consultation.
+              Long-term support begins with understanding your child's needs.
+              Book a free strategy call and let's talk about a plan that works.
             </p>
           </div>
 
@@ -32,7 +32,8 @@ const ContactSection = () => {
                 Thank You!
               </h3>
               <p className="text-muted-foreground">
-                Your message has been received. I'll get back to you within 24 hours.
+                Your message has been received. I'll get back to you within 24 hours
+                to arrange your strategy call.
               </p>
             </div>
           ) : (
@@ -85,7 +86,7 @@ const ContactSection = () => {
               </div>
               <div>
                 <label htmlFor="message" className="block text-sm font-medium text-foreground mb-2">
-                  How Can I Help?
+                  Tell Me About Your Child's Journey So Far
                 </label>
                 <textarea
                   id="message"
@@ -94,7 +95,7 @@ const ContactSection = () => {
                   maxLength={1000}
                   rows={4}
                   className="w-full px-4 py-3 rounded-lg border border-input bg-background text-foreground placeholder:text-muted-foreground focus:ring-2 focus:ring-ring focus:border-transparent transition-colors resize-y"
-                  placeholder="Tell me a little about your child's experience with maths..."
+                  placeholder="What challenges has your child faced with maths? What have you tried so far?"
                 />
               </div>
               <button
@@ -102,7 +103,7 @@ const ContactSection = () => {
                 className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-8 py-4 rounded-lg bg-primary text-primary-foreground font-semibold text-lg hover:opacity-90 transition-opacity"
               >
                 <Send className="w-5 h-5" aria-hidden="true" />
-                Send Message
+                Book a Strategy Call
               </button>
               <p className="text-sm text-muted-foreground">
                 Your information is kept strictly confidential and will never be shared.
