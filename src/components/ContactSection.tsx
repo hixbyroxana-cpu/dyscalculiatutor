@@ -71,11 +71,10 @@ const ContactSection = () => {
         <div className="max-w-2xl mx-auto">
           <div className="text-center mb-10">
             <h2 className="font-heading text-2xl sm:text-3xl font-bold text-foreground mb-4">
-              Tutoring Application
+              Apply for a Student Slot
             </h2>
             <p className="text-muted-foreground text-lg mb-6">
-              Long-term support begins with understanding your child's needs.
-              Fill in the form below and let's talk about a plan that works.
+              My specialist practice is currently 80% full. Once the final slots are allocated, I will move to a strictly waitlist-only basis for the remainder of the term. Priority is given to long-term foundational applications.
             </p>
             <div className="bg-accent/50 border-2 border-accent rounded-xl p-5 text-left">
               <p className="text-foreground text-sm leading-relaxed">
@@ -266,7 +265,7 @@ const ContactSection = () => {
                 className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-8 py-4 rounded-lg bg-primary text-primary-foreground font-semibold text-lg hover:opacity-90 transition-opacity disabled:opacity-60"
               >
                 <Send className="w-5 h-5" aria-hidden="true" />
-                {sending ? "Sending…" : "Submit Enquiry"}
+                {sending ? "Sending…" : "Submit Application"}
               </button>
               <p className="text-sm text-muted-foreground">
                 Your information is kept strictly confidential and will never be
