@@ -73,15 +73,15 @@ const ContactSection = () => {
             <h2 className="font-heading text-2xl sm:text-3xl font-bold text-foreground mb-4">
               Apply for a Student Slot
             </h2>
-            <p className="text-muted-foreground text-lg mb-6">
-              My specialist practice is currently 80% full. Once the final slots are allocated, I will move to a strictly waitlist-only basis for the remainder of the term. Priority is given to long-term foundational applications.
-            </p>
-            <div className="bg-accent/50 border-2 border-accent rounded-xl p-5 text-left">
+            <div className="bg-accent/50 border-2 border-accent rounded-xl p-5 text-left mb-6">
               <p className="text-foreground text-sm leading-relaxed">
-                <strong>I specialise exclusively in long-term intervention for Dyscalculia and Maths Anxiety.</strong>{" "}
-                I do not offer short-term "exam cramming" or one-off homework help.
+                <strong>My specialist practice is currently 80% full.</strong>{" "}
+                Once the final slots are allocated, I will move to a strictly waitlist-only basis for the remainder of the term. Priority is given to long-term foundational applications.
               </p>
             </div>
+            <p className="text-muted-foreground text-lg">
+              I specialise exclusively in long-term intervention for Dyscalculia and Maths Anxiety. I do not offer short-term "exam cramming" or one-off homework help.
+            </p>
           </div>
 
           {submitted ? (
