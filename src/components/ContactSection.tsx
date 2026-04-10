@@ -79,7 +79,7 @@ const ContactSection = () => {
                 Once the final slots are allocated, I will move to a strictly waitlist-only basis for the remainder of the term. Priority is given to long-term foundational applications.
               </p>
             </div>
-            <p className="text-muted-foreground text-lg">
+            <p className="text-muted-foreground text-sm">
               I specialise exclusively in long-term intervention for Dyscalculia and Maths Anxiety. I do not offer short-term "exam cramming" or one-off homework help.
             </p>
           </div>
