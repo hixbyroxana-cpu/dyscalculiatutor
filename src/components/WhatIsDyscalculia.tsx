@@ -46,11 +46,11 @@ const WhatIsDyscalculia = () => {
               </ul>
             </div>
             <p className="text-muted-foreground">
-              If several of these resonate with your child's experience,{" "}
+              If your child is struggling with these markers,{" "}
               <a href="#contact" className="text-primary font-medium underline underline-offset-4 hover:text-accent transition-colors">
-                get in touch for a free consultation
+                start the application process
               </a>{" "}
-              to discuss how I can help.
+              to see if a space is available for a formal assessment.
             </p>
           </div>
         </div>
