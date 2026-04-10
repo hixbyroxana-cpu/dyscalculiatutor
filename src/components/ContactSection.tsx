@@ -2,9 +2,6 @@ import { useState } from "react";
 import { Send, CheckCircle } from "lucide-react";
 
 const SCHOOL_YEARS = [
-  "Reception",
-  "Year 1",
-  "Year 2",
   "Year 3",
   "Year 4",
   "Year 5",
@@ -14,8 +11,7 @@ const SCHOOL_YEARS = [
   "Year 9",
   "Year 10",
   "Year 11 (GCSE)",
-  "Year 12",
-  "Year 13",
+  "Adult",
 ];
 
 const DIAGNOSTIC_OPTIONS = [
