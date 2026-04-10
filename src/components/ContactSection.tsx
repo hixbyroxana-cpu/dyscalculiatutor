@@ -71,12 +71,18 @@ const ContactSection = () => {
         <div className="max-w-2xl mx-auto">
           <div className="text-center mb-10">
             <h2 className="font-heading text-2xl sm:text-3xl font-bold text-foreground mb-4">
-              Start the Conversation
+              Tutoring Application
             </h2>
-            <p className="text-muted-foreground text-lg">
+            <p className="text-muted-foreground text-lg mb-6">
               Long-term support begins with understanding your child's needs.
               Fill in the form below and let's talk about a plan that works.
             </p>
+            <div className="bg-accent/50 border-2 border-accent rounded-xl p-5 text-left">
+              <p className="text-foreground text-sm leading-relaxed">
+                <strong>I specialise exclusively in long-term intervention for Dyscalculia and Maths Anxiety.</strong>{" "}
+                I do not offer short-term "exam cramming" or one-off homework help.
+              </p>
+            </div>
           </div>
 
           {submitted ? (
