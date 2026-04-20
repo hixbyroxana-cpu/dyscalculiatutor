@@ -4,6 +4,16 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer components {
+  .prose {
+    @apply text-foreground;
+  }
+
+  .prose p {
+    @apply mb-6;
+  }
+}
+
 @layer base {
   :root {
     --background: 40 33% 97%;
