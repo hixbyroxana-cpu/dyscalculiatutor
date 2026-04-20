@@ -7,17 +7,16 @@ const HeroSection = () => {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6 animate-fade-up">
             <p className="text-sm font-semibold tracking-widest uppercase text-accent">
-              Building Sustainable Mathematical Foundations
+              Specialist Online Dyscalculia Tutor for UK Families
             </p>
             <h1 className="font-heading text-3xl sm:text-4xl lg:text-5xl font-bold text-foreground leading-tight">
-              Mastering Maths with Confidence: Specialist{" "}
-              <span className="text-primary">Dyscalculia Tutoring</span> by a
-              Qualified Teacher
+              Specialist <span className="text-primary">Dyscalculia Tutoring</span> for calmer,
+              long-term maths progress
             </h1>
-            <p className="text-lg text-muted-foreground max-w-lg leading-relaxed">
-              I specialise in working with students over the long term — from primary
-              years through to GCSE — to ensure the gaps in their numerical understanding
-              are permanently filled, not papered over.
+            <p className="text-lg text-muted-foreground max-w-xl leading-relaxed">
+              I help children and teenagers with dyscalculia build stronger number sense,
+              confidence, and mathematical understanding through specialist long-term support,
+              including calculator-friendly strategies where appropriate.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 pt-2">
               <a

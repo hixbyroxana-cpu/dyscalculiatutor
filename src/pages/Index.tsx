@@ -7,6 +7,7 @@ import WhyNotCramming from "@/components/WhyNotCramming";
 import WhatIsDyscalculia from "@/components/WhatIsDyscalculia";
 import TestimonialsSection from "@/components/TestimonialsSection";
 import ContactSection from "@/components/ContactSection";
+import SeoRoadmapSection from "@/components/SeoRoadmapSection";
 import Footer from "@/components/Footer";
 
 const Index = () => {
@@ -21,6 +22,7 @@ const Index = () => {
         <WhyNotCramming />
         <WhatIsDyscalculia />
         <TestimonialsSection />
+        <SeoRoadmapSection />
         <ContactSection />
       </main>
       <Footer />
